@@ -12,7 +12,7 @@ dotfiles() {
     linked .vimrc
     linked .vim
     linked .gitconfig
-    linked .tmux.conf
+    #linked .tmux.conf
 
     mkdir -p ~/.config/fish/functions
     linked .config/fish/config.fish
