@@ -34,25 +34,12 @@ brew "protobuf"
 brew "python3"
 brew "node"
 
-# Fonts
-cask "caskroom/fonts/font-inconsolata-g-for-powerline"
-cask "caskroom/fonts/font-dejavu-sans-mono-for-powerline"
-cask "caskroom/fonts/font-source-code-pro"
-cask "caskroom/fonts/font-fira-code"
-
 # Apps
-cask "evernote"
-cask "db-browser-for-sqlite"
-cask "xmind"
 cask "iterm2"
-cask "superduper"
 cask "android-file-transfer"
-#cask "alfred"
 cask "dropbox"
-cask "karabiner-elements"
 cask "typora"
 cask "spectacle"
-cask "wireshark"
 cask "gitify"
 
 # Unproductivity
@@ -63,13 +50,11 @@ cask "aerial"
 # Devtools
 brew "hub"
 brew "ansible"
-brew "terraform"
-brew "httpie"
+brew "tflint"
 cask "slack"
-cask "virtualbox"
-cask "virtualbox-extension-pack"
 cask "vagrant"
 cask "docker"
 
 # Browser
 cask "google-chrome"
+cask "firefoxdeveloperedition"
