@@ -33,7 +33,6 @@ cd ~/code/mac-setup
 
 If you want to clone this repo and customize things, you probably want to:
 
-* Remove Typr (probably of no use to you)
 * Edit `dotfiles/.gitconfig` to make sure your username/email are there
 * Update any paths/aliases in any dotfiles
 * Update any packages you may want to use in `Brewfile`
