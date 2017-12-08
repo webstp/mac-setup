@@ -70,14 +70,6 @@ codeExtensions() {
     code --install-extension streetsidesoftware.code-spell-checker
 }
 
-typr() {
-    echo Installing Typr
-    if [ ! -d ~/Applications/Typr.app ]; then
-        mkdir ~/Applications
-        (cd ~/Applications && wget https://github.com/chrisdail/typr/releases/download/v0.1/Typr.zip && unzip Typr.zip && rm Typr.zip)
-    fi
-}
-
 osxDefaults() {
     echo Mac OS Defaults
 
@@ -106,6 +98,4 @@ brewBundle
 iTermConfig
 fish
 codeExtensions
-# Note: If you clone my repo, you probably want to comment this out
-typr
 osxDefaults
