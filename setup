@@ -21,6 +21,9 @@ dotfiles() {
     mkdir -p ~/Library/Application\ Support/Code/User
     linked "Library/Application Support/Code/User/settings.json"
     linked "Library/Application Support/Code/User/keybindings.json"
+
+    mkdir -p ~/.ssh
++   linked .ssh/config
 }
 
 updateBrew() {
@@ -66,10 +69,13 @@ codeExtensions() {
     code --install-extension dbaeumer.vscode-eslint
     code --install-extension DavidAnson.vscode-markdownlint
     code --install-extension PeterJausovec.vscode-docker
-    code --install-extension donjayamanne.python
+    code --install-extension ms-python .python
     code --install-extension streetsidesoftware.code-spell-checker
     code --install-extension christian-kohler.npm-intellisense
+    code --install-extension christian-kohler.path-intellisense
     code --install-extension EditorConfig.editorconfig
+    code --install-extension formulahendry.auto-rename-tag
+    code --install-extension mathiasfrohlich.kotlin
     
     # Themes
     code --install-extension zhuangtongfa.material-theme
@@ -87,7 +93,6 @@ osxDefaults() {
 
     # Show all files
     defaults write com.apple.finder AppleShowAllFiles YES
-    defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
     # Unnatural scrolling
     defaults write -g com.apple.swipescrolldirection -bool false

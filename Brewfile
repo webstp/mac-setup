@@ -38,7 +38,6 @@ brew "node"
 cask "iterm2"
 cask "android-file-transfer"
 cask "dropbox"
-cask "typora"
 cask "spectacle"
 cask "gitify"
 
@@ -54,6 +53,8 @@ brew "tflint"
 cask "slack"
 cask "vagrant"
 cask "docker"
+cask "insomnia"
+cask "psequel"
 
 # Browser
 cask "google-chrome"

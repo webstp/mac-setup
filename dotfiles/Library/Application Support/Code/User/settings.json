@@ -3,4 +3,16 @@
     "files.autoSave": "onFocusChange",
     "editor.rulers": [140],
     "workbench.colorTheme": "One Dark Pro",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+        "vue-html"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "git.autofetch": true,
+    "window.zoomLevel": 0,
+    "editor.tabCompletion": true,
+    "editor.quickSuggestions": false,
+    "editor.minimap.enabled": false
 }
