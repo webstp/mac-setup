@@ -34,6 +34,12 @@ brew "protobuf"
 brew "python3"
 brew "node"
 
+# Fonts
+cask "caskroom/fonts/font-inconsolata-g-for-powerline"
+cask "caskroom/fonts/font-dejavu-sans-mono-for-powerline"
+cask "caskroom/fonts/font-source-code-pro"
+cask "caskroom/fonts/font-fira-code"
+
 # Apps
 cask "iterm2"
 cask "android-file-transfer"
@@ -49,7 +55,6 @@ cask "aerial"
 # Devtools
 brew "hub"
 brew "ansible"
-brew "tflint"
 cask "slack"
 cask "vagrant"
 cask "docker"

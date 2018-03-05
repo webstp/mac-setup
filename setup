@@ -69,8 +69,7 @@ codeExtensions() {
     code --install-extension dbaeumer.vscode-eslint
     code --install-extension DavidAnson.vscode-markdownlint
     code --install-extension PeterJausovec.vscode-docker
-    code --install-extension ms-python .python
-    code --install-extension streetsidesoftware.code-spell-checker
+    code --install-extension ms-python.python
     code --install-extension christian-kohler.npm-intellisense
     code --install-extension christian-kohler.path-intellisense
     code --install-extension EditorConfig.editorconfig
