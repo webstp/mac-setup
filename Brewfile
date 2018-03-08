@@ -60,6 +60,7 @@ cask "vagrant"
 cask "docker"
 cask "insomnia"
 cask "psequel"
+brew "ffmpeg"
 
 # Browser
 cask "google-chrome"

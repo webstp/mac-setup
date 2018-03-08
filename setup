@@ -17,6 +17,7 @@ dotfiles() {
     mkdir -p ~/.config/fish/functions
     linked .config/fish/config.fish
     linked .config/fish/functions/fish_prompt.fish
+    linked .config/fish/functions/gifify.fish
 
     mkdir -p ~/Library/Application\ Support/Code/User
     linked "Library/Application Support/Code/User/settings.json"
