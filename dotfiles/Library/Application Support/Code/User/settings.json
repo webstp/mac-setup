@@ -11,12 +11,15 @@
     ],
     "workbench.iconTheme": "vscode-icons",
     "git.autofetch": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.tabCompletion": true,
     "editor.quickSuggestions": false,
     "editor.minimap.enabled": false,
     "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "breadcrumbs.enabled": true,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true
 }

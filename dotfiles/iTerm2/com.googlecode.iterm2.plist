@@ -10,6 +10,8 @@
 	<true/>
 	<key>AllowClipboardAccess</key>
 	<true/>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AnimateDimming</key>
 	<false/>
 	<key>AppleAntiAliasingThreshold</key>
@@ -388,6 +390,10 @@
 	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>EnableDivisionView</key>
+	<true/>
+	<key>EnableProxyIcon</key>
+	<false/>
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FlashTabBarInFullscreen</key>
@@ -446,7 +452,7 @@ Broadcast Input.Send Input to Current Session Only</string>
 	<key>HideFromDockAndAppSwitcher</key>
 	<true/>
 	<key>HideMenuBarInFullscreen</key>
-	<false/>
+	<true/>
 	<key>HideScrollbar</key>
 	<false/>
 	<key>HideTab</key>
@@ -559,10 +565,12 @@ Broadcast Input.Send Input to Current Session Only</string>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>430 315 445 77 0 0 1920 1178 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>2890 883 620 392 1920 114 2560 1418 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>358 430 796 473 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>111 93 1620 1047 0 0 1920 1178 </string>
+	<string>0 1178 1920 429 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>247 132 850 1024 0 0 1920 1178 </string>
 	<key>NeverWarnAboutShortLivedSessions_2B7BBD1C-6485-46D5-8212-907CF26FE26F</key>
@@ -1443,7 +1451,7 @@ Broadcast Input.Send Input to Current Session Only</string>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>12</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string></string>
 		</dict>
@@ -2442,7 +2450,7 @@ Broadcast Input.Send Input to Current Session Only</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-04-11T13:12:37Z</date>
+	<date>2018-04-23T12:15:32Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -2456,7 +2464,7 @@ Broadcast Input.Send Input to Current Session Only</string>
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SmartPlacement</key>
-	<false/>
+	<true/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.1522410916976441</real>
 	<key>SwitchTabModifier</key>
@@ -2495,6 +2503,8 @@ Broadcast Input.Send Input to Current Session Only</string>
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>

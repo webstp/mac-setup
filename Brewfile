@@ -46,6 +46,7 @@ cask "android-file-transfer"
 cask "dropbox"
 cask "spectacle"
 cask "gitify"
+cask "typora"
 
 # Unproductivity
 cask "spotify"
